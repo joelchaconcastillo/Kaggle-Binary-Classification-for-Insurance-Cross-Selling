@@ -1,0 +1,11 @@
+Loading data...
+Data Load Successfully!
+==> Transforming categorical features
+==> Adjusting data types
+==> Creating additional features
+==> Optimizing memory usage
+------ Memory usage before: 2486.95 MB
+------ Memory usage after: 621.74 MB
+------ Reduced memory usage by 75.0%
+Training XGBClassifier
+
