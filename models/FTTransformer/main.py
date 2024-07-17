@@ -69,10 +69,11 @@ from sklearn.metrics import median_absolute_error, accuracy_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
-from torch.optim.lr.scheduler import ReduceLROnPlateau
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+
 
 from lightautoml.automl.presets.tabular_presets import TabularAutoML
-from lightautoml.tasks import task
+from lightautoml.tasks import Task
 
 
 
